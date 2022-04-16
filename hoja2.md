@@ -1,8 +1,8 @@
-title: "Escribe tu titulo"
-author: "Diego Pardo"
-date: "Loja, 17 de abril de 2022"
+title: "Escribe tu titulo"</br>
+author: "Diego Pardo"</br>
+date: "Loja, 17 de abril de 2022"</br>
 
-## Problema 1
+## Problema 2
 
 La base de datos `CARS2004` del paquete `PASWR2` recoge el número de coches por 1000 habitantes (`cars`), el número total de accidentes con víctimas mortales (`deaths`) y la población/1000 (`population`) para los 25 miembros de la Unión Europea en el año 2004.
 
