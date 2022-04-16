@@ -6,6 +6,6 @@ root: intro
 chapters:
 - file: markdown
 - file: notebooks
-- file: hoja
 - file: hoja1
 - file: hoja2
+- file: hoja3
