@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Problema 2 &#8212; My sample book</title>
+    <title>Introducción a los cuadernos de Jupyter &#8212; My sample book</title>
     
   <link href="_static/css/theme.css" rel="stylesheet">
   <link href="_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
@@ -53,7 +53,7 @@ const thebe_selector_output = ".output, .cell_output"
     <script async="async" src="_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="prev" title="Problema 1" href="hoja1.html" />
+    <link rel="prev" title="Jupyter Book" href="hoja1.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
     
@@ -110,12 +110,12 @@ const thebe_selector_output = ".output, .cell_output"
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="hoja1.html">
-   Problema 1
+   Jupyter Book
   </a>
  </li>
  <li class="toctree-l1 current active">
   <a class="current reference internal" href="#">
-   Problema 2
+   Introducción a los cuadernos de Jupyter
   </a>
  </li>
 </ul>
@@ -200,19 +200,6 @@ const thebe_selector_output = ".output, .cell_output"
         <!-- Table of contents -->
         <div class="d-none d-md-block col-md-2 bd-toc show noprint">
             
-            <div class="tocsection onthispage pt-5 pb-3">
-                <i class="fas fa-list"></i> Contents
-            </div>
-            <nav id="bd-toc-nav" aria-label="Page">
-                <ul class="visible nav section-nav flex-column">
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#apartado-1">
-   Apartado 1
-  </a>
- </li>
-</ul>
-
-            </nav>
         </div>
     </div>
 </div>
@@ -220,44 +207,28 @@ const thebe_selector_output = ".output, .cell_output"
         <div class="col-12 col-md-9 pl-md-3 pr-md-0">
             <!-- Table of contents that is only displayed when printing the page -->
             <div id="jb-print-docs-body" class="onlyprint">
-                <h1>Problema 2</h1>
+                <h1>Introducción a los cuadernos de Jupyter</h1>
                 <!-- Table of contents -->
                 <div id="print-main-content">
                     <div id="jb-print-toc">
                         
-                        <div>
-                            <h2> Contents </h2>
-                        </div>
-                        <nav aria-label="Page">
-                            <ul class="visible nav section-nav flex-column">
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#apartado-1">
-   Apartado 1
-  </a>
- </li>
-</ul>
-
-                        </nav>
                     </div>
                 </div>
             </div>
             
               <div>
                 
-  <p>title: “Escribe tu titulo”</br>
-author: “Diego Pardo”</br>
-date: “Loja, 17 de abril de 2022”</br></p>
-<div class="section" id="problema-2">
-<h1>Problema 2<a class="headerlink" href="#problema-2" title="Permalink to this headline">¶</a></h1>
-<p>La base de datos <code class="docutils literal notranslate"><span class="pre">CARS2004</span></code> del paquete <code class="docutils literal notranslate"><span class="pre">PASWR2</span></code> recoge el número de coches por 1000 habitantes (<code class="docutils literal notranslate"><span class="pre">cars</span></code>), el número total de accidentes con víctimas mortales (<code class="docutils literal notranslate"><span class="pre">deaths</span></code>) y la población/1000 (<code class="docutils literal notranslate"><span class="pre">population</span></code>) para los 25 miembros de la Unión Europea en el año 2004.</p>
-<ol class="simple">
-<li><p>Proporciona con <code class="docutils literal notranslate"><span class="pre">R</span></code> resumen de los datos.</p></li>
-<li><p>Utiliza la función <code class="docutils literal notranslate"><span class="pre">eda</span></code> del paquete <code class="docutils literal notranslate"><span class="pre">PASWR2</span></code> para realizar un análisis exploratorio de la variable <code class="docutils literal notranslate"><span class="pre">deaths</span></code></p></li>
-</ol>
-<div class="section" id="apartado-1">
-<h2>Apartado 1<a class="headerlink" href="#apartado-1" title="Permalink to this headline">¶</a></h2>
-<p>Como puedes observar, al compilar tu documento aparecen las sentencias de <code class="docutils literal notranslate"><span class="pre">R</span></code> y el output que te da el programa.</p>
-</div>
+  <p><strong>Titulo:</strong> “Jupyter Book”</br>
+<strong>Autor:</strong> “Diego Pardo”</br>
+<strong>Fecha:</strong> “Loja, 17 de abril de 2022”</br></p>
+<div class="section" id="introduccion-a-los-cuadernos-de-jupyter">
+<h1>Introducción a los cuadernos de Jupyter<a class="headerlink" href="#introduccion-a-los-cuadernos-de-jupyter" title="Permalink to this headline">¶</a></h1>
+<p>Estaremos utilizando Python a través de una interfaz conveniente que son los Jupyter Notebook. Si a este cuaderno lo está visualizando a través de una pagina web, puede descargarlo haciendo click en icono de descarga ubicado arriba a la derecha y seleccionando el formato ipynb. También se puede ejecutar a desde la web, usando binder, haciendo click donde se encuentra el cohete. Los archivos con la extensión .ipynb son cuadernos de jupyter o jupyter notebooks.</p>
+<p>Existen varias alternativas para visualizar los cuadernos de Jupyter. Paso a describir las más utilizadas:</p>
+<p><strong>Jupyter Notebook:</strong> se encuentra instalada con el software recomendado para la materia y consiste en una página web, que es servida por nuestra propia computadora. Es relativamente liviana en cuanto a recursos computacionales y con esta se pueden ver, ejecutar y editar los cuadernos</p>
+<p><strong>Jupyter Lab:</strong> es similar a la anterior, también se encuentra pre instalada con el software recomendado para la materia, pero cuenta con algunas funcionalidades extra como explorador de variables, ayuda contextual, explorador de archivos, y otras funcionalidades instalables a través de plugins. Esta es la forma recomendada por la cátedra para acceder a los cuadernos</p>
+<p><strong>Spyder:</strong> este es un entorno de desarrollo integrado (IDE) pre-instalado con el software recomendado por la cátedra. Para los cuadernos se usa un plugin que se llama spyder-notebook. Este IDE trata de emular el entorno ofrecido por Matlab. Es una buena elección para personas que están habituadas a utilizar Matlab y quieren o deben comenzar a utilizar Python y los cuadernos de jupyter.</p>
+<p><strong>Visual Studio Code:</strong> es un software gratuito de microsoft, que con un plugin (Python es el nombre del mismo) soporta todo lo referente a los cuadernos. Si bien utiliza jupyter para mostrar los cuadernos, provee una interface propia. Es recomendable para personas que están habituadas a programar o que quieran además de utilizar los cuadernos, escribir programas en Python o cualquier otro lenguaje en un mismo entorno. La principal desventaja es que suele ser algo complejo de configurar. Sin embargo cuenta con una gran documentación en la web.</p>
 </div>
 
     <script type="text/x-thebe-config">
@@ -289,7 +260,7 @@ date: “Loja, 17 de abril de 2022”</br></p>
         <i class="fas fa-angle-left"></i>
         <div class="prev-next-info">
             <p class="prev-next-subtitle">previous</p>
-            <p class="prev-next-title">Problema 1</p>
+            <p class="prev-next-title">Jupyter Book</p>
         </div>
     </a>
 </div>
