@@ -1,4 +1,4 @@
-**Titulo:* "Jupyter books"</br>
+**Titulo:** "Jupyter books"</br>
 **Autor:** "Diego Pardo"</br>
 **Fecha:** "Loja, 17 de abril de 2022"</br>
 ## Git Hub
