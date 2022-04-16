@@ -1,6 +1,6 @@
-title: "Escribe tu titulo"
-author: "Diego Pardo"
-date: "Loja, 17 de abril de 2022"
+title: "Escribe tu titulo"</br>
+author: "Diego Pardo"</br>
+date: "Loja, 17 de abril de 2022"</br>
 
 ## Problema 1
 
