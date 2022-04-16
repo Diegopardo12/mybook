@@ -1,16 +1,16 @@
-title: "Escribe tu titulo"</br>
-author: "Diego Pardo"</br>
-date: "Loja, 17 de abril de 2022"</br>
+**Titulo:** "Jupyter Book"</br>
+**Autor:** "Diego Pardo"</br>
+**Fecha:** "Loja, 17 de abril de 2022"</br>
 
-## Problema 2
+## Introducción a los cuadernos de Jupyter
+Estaremos utilizando Python a través de una interfaz conveniente que son los Jupyter Notebook. Si a este cuaderno lo está visualizando a través de una pagina web, puede descargarlo haciendo click en icono de descarga ubicado arriba a la derecha y seleccionando el formato ipynb. También se puede ejecutar a desde la web, usando binder, haciendo click donde se encuentra el cohete. Los archivos con la extensión .ipynb son cuadernos de jupyter o jupyter notebooks.
 
-La base de datos `CARS2004` del paquete `PASWR2` recoge el número de coches por 1000 habitantes (`cars`), el número total de accidentes con víctimas mortales (`deaths`) y la población/1000 (`population`) para los 25 miembros de la Unión Europea en el año 2004.
+Existen varias alternativas para visualizar los cuadernos de Jupyter. Paso a describir las más utilizadas:
 
-1. Proporciona con `R` resumen de los datos. 
-2. Utiliza la función `eda` del paquete `PASWR2` para realizar un análisis exploratorio de la variable `deaths`
+**Jupyter Notebook:** se encuentra instalada con el software recomendado para la materia y consiste en una página web, que es servida por nuestra propia computadora. Es relativamente liviana en cuanto a recursos computacionales y con esta se pueden ver, ejecutar y editar los cuadernos
 
+**Jupyter Lab:** es similar a la anterior, también se encuentra pre instalada con el software recomendado para la materia, pero cuenta con algunas funcionalidades extra como explorador de variables, ayuda contextual, explorador de archivos, y otras funcionalidades instalables a través de plugins. Esta es la forma recomendada por la cátedra para acceder a los cuadernos
 
-### Apartado 1
+**Spyder:** este es un entorno de desarrollo integrado (IDE) pre-instalado con el software recomendado por la cátedra. Para los cuadernos se usa un plugin que se llama spyder-notebook. Este IDE trata de emular el entorno ofrecido por Matlab. Es una buena elección para personas que están habituadas a utilizar Matlab y quieren o deben comenzar a utilizar Python y los cuadernos de jupyter.
 
-
-Como puedes observar, al compilar tu documento aparecen las sentencias de `R` y el output que te da el programa.
+**Visual Studio Code:** es un software gratuito de microsoft, que con un plugin (Python es el nombre del mismo) soporta todo lo referente a los cuadernos. Si bien utiliza jupyter para mostrar los cuadernos, provee una interface propia. Es recomendable para personas que están habituadas a programar o que quieran además de utilizar los cuadernos, escribir programas en Python o cualquier otro lenguaje en un mismo entorno. La principal desventaja es que suele ser algo complejo de configurar. Sin embargo cuenta con una gran documentación en la web.

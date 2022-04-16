@@ -1,18 +1,15 @@
-title: "Escribe tu titulo"</br>
-author: "Diego Pardo"</br>
-date: "Loja, 17 de abril de 2022"</br>
+**Titulo:* "Jupyter books"</br>
+**Autor:** "Diego Pardo"</br>
+**Fecha:** "Loja, 17 de abril de 2022"</br>
 
-## Problema 1
+# Jupyter Book
+Jupyter Book es una herramienta para crear libros y documentos de material computacional. Forma parte de las herramientas que brinda el proyecto Jupyter. Esta ha sido creada con Jupyter Notebooks, por lo que hereda sus funcionalidades, permitiendo al lector interactuar directamente con el contenido.
 
-La base de datos `CARS2004` del paquete `PASWR2` recoge el número de coches por 1000 habitantes (`cars`), el número total de accidentes con víctimas mortales (`deaths`) y la población/1000 (`population`) para los 25 miembros de la Unión Europea en el año 2004.
+# ¿Cómo funciona?
+Al estar integrado con el ecosistema UC3M mediante JupyterHub, puedes solicitar acceder a esta herramienta y crear contenidos desde la terminal, desde cero o a partir de una plantilla editable.
 
-1. Proporciona con `R` resumen de los datos. 
-2. Utiliza la función `eda` del paquete `PASWR2` para realizar un análisis exploratorio de la variable `deaths`
+# ¿Para qué lo puedo utilizar?
+Puedes utilizar esta herramienta para escribir contenido con calidad de publicación en Markdown. Entre sus funcionalidades, se puede destacar el hecho de que permite crear material para el aula que contenga código, ecuaciones, figuras y referencias cruzadas de manera fácil.
 
-
-### Apartado 1
-
-
-Como puedes observar, al compilar tu documento aparecen las sentencias de `R` y el output que te da el programa.
-
+Adicionalmente, permite generar outputs interactivos mediante la incrustación de notebooks y la descarga del material en distintos formatos.
 
